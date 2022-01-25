@@ -102,23 +102,6 @@ const AboutArea = () => {
                         <LayerStyle>
                             <Thumb>
                                 <Row className="m-0">
-                                    {/* <Col sm={4} md={4} xl={4} lg={4}>
-                                        <Tilt
-                                            className="js-tilt"
-                                            scale={1.04}
-                                            tiltReverse={true}
-                                            tiltMaxAngleX={15}
-                                            tiltMaxAngleY={15}
-                                            perspective={3000}
-                                            transitionSpeed={4000}
-                                        >
-                                            <GatsbyImage
-                                                image={imageTwo}
-                                                className="img-one"
-                                                alt="Image-Givest"
-                                            />
-                                        </Tilt>
-                                    </Col> */}
                                     <Col className="tilt-animation">
                                         <Tilt
                                             className=" js-tilt"
