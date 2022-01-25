@@ -1,0 +1,30 @@
+[
+    {
+        "section_title": {
+            "subTitle": "About Us.",
+            "title": "<span>Biyo</span> is Committed to providing Safe Water For The Horn Of Africa"
+        },
+        "image1": "../images/about/sanitation-child.jpg",
+        "image2": "../images/about/sanitation-image.jpg",
+        "image3": "../images/about/rainwater-harvesting.jpg",
+        "image4": "../images/about/boys-by-pump.jpg",
+        "content1": "",
+        "content2": "We identify the most water stressed area in a community and build wells that can provide water for thousands of housholds.",
+        "content3": "Our Wells provide much needed water for the local community to use and drink. We cover numerous areas and make sure fresh water is available for the most depleated villages and towns",
+        "listText1": "Clean Water <br /> for washing and sanitation .",
+        "listText2": "Fresh Water <br />for drinking and cooking."
+    },
+    {
+        "section_title": {
+            "subTitle": "About Us.",
+            "title": "<span>Biyo</span> is blah blah"
+        },
+        "image3": "../images/about/rainwater-harvesting.jpg",
+        "image4": "../images/about/boys-by-pump.jpg",
+        "content1": "",
+        "content2": "We identify the most water stressed area in a community and build wells that can provide water for thousands of housholds.",
+        "content3": "Our Wells provide much needed water for the local community to use and drink. We cover numerous areas and make sure fresh water is available for the most depleated villages and towns",
+        "listText1": "Clean Water <br /> for washing and sanitation .",
+        "listText2": "Fresh Water <br />for drinking and cooking."
+    }
+]

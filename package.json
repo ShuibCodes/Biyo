@@ -1,0 +1,80 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "Biyo",
+  "version": "0.1.0",
+  "author": "Nadeef",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@stripe/stripe-js": "^1.22.0",
+    "@styled-system/theme-get": "^5.1.2",
+    "bootstrap": "^5.1.3",
+    "disqus-react": "^1.1.2",
+    "gatsby": "^4.5.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-breadcrumb": "^11.0.0",
+    "gatsby-plugin-emotion": "^5.4.0",
+    "gatsby-plugin-image": "^0.7.2",
+    "gatsby-plugin-manifest": "^2.6.1",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-plugin-svgr-loader": "^0.1.0",
+    "gatsby-plugin-theme-ui": "^0.13.1",
+    "gatsby-transformer-json": "^2.11.0",
+    "gatsby-transformer-remark": "^5.4.0",
+    "gatsby-transformer-sharp": "^2.12.1",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "parallax-js": "^3.1.0",
+    "postcss": "^8.4.5",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
+    "react-countup": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-modal-video": "^1.2.8",
+    "react-parallax-tilt": "^1.5.85",
+    "theme-ui": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:share": "gatsby develop -H 0.0.0.0 -p 8000",
+    "format": "prettier --write \"**/*.{js,jsx,,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "build:prefix": "gatsby build --prefix-paths",
+    "serve:prefix": "gatsby serve --prefix-paths",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
+    "lint:fix": "npm run lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

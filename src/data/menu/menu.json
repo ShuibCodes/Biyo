@@ -1,0 +1,27 @@
+[
+    {
+        "text": "Home",
+        "link": "/",
+        "isSubmenu": false
+    },
+  
+    {
+        "text": "Causes",
+        "link": "/causes",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Causes",
+                "link": "/causes"
+            }
+           
+        ]
+    },
+    
+    
+    {
+        "text": "Contact Us",
+        "link": "/contact-us",
+        "isSubmenu": false
+    }
+]
