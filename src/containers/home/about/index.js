@@ -4,7 +4,7 @@ import { jsx } from "theme-ui";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "@components/title";
 import Button from "@components/ui/button";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 import Tilt from "react-parallax-tilt";
 
@@ -158,9 +158,11 @@ const AboutArea = () => {
                                     />
                                 </ListLi>
                             </LlistIconStyle>
-                            <Button path="/donate" color="gradient">
-                                Donate Now
-                            </Button>
+                            <Link to="/causes">
+                                <Button path="/donate" color="gradient">
+                                    Donate Now
+                                </Button>
+                            </Link>
                         </AboutContent>
                     </Col>
                 </Row>
@@ -237,9 +239,11 @@ const AboutArea = () => {
                                     </div>
                                 </ListLi>
                             </LlistIconStyle>
-                            <Button path="/donate" color="gradient">
-                                Donate Now
-                            </Button>
+                            <Link to="causes">
+                                <Button path="/donate" color="gradient">
+                                    Donate Now
+                                </Button>
+                            </Link>
                         </AboutContent>
                     </Col>
                     <Col lg={6} xl={6}>
@@ -385,9 +389,11 @@ const AboutArea = () => {
                                     />
                                 </ListLi>
                             </LlistIconStyle>
-                            <Button path="/donate" color="gradient">
-                                Donate Now
-                            </Button>
+                            <Link to="/causes">
+                                <Button path="/donate" color="gradient">
+                                    Donate Now
+                                </Button>
+                            </Link>
                         </AboutContent>
                     </Col>
                 </Row>

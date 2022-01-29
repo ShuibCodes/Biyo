@@ -31,13 +31,16 @@ const ContactForm = () => {
             </Row>
             <Row>
                 <Col lg={12}>
-                    <Form action="#" method="post">
+                    <Form
+                        action="https://formspree.io/f/mpzbpwnr"
+                        method="POST"
+                    >
                         <Row className="row-gutter-20">
                             <Col lg={12}>
                                 <FormGroup htmlFor="inputs_name">
                                     <Input
                                         type="text"
-                                        name="con_name"
+                                        name="name"
                                         placeholder="Name"
                                     />
                                 </FormGroup>
@@ -46,7 +49,7 @@ const ContactForm = () => {
                                 <FormGroup htmlFor="inputs_name">
                                     <Input
                                         type="email"
-                                        name="con_email"
+                                        name="email"
                                         placeholder="Email"
                                     />
                                 </FormGroup>
@@ -55,7 +58,7 @@ const ContactForm = () => {
                                 <FormGroup htmlFor="inputs_name">
                                     <Input
                                         type="text"
-                                        name="con_phone"
+                                        name="phone"
                                         placeholder="Phone"
                                     />
                                 </FormGroup>
@@ -63,7 +66,7 @@ const ContactForm = () => {
                             <Col lg={12}>
                                 <FormGroup>
                                     <Textarea
-                                        name="con_message"
+                                        name="message"
                                         placeholder="Message"
                                     ></Textarea>
                                 </FormGroup>

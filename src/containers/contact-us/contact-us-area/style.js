@@ -62,9 +62,9 @@ export const ContactInfoContentArea = styled.div`
     transform: none;
     width: 100%;
     transform: translate(0, 0);
-    background: #fea444;
-    background-image: -ms-linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
-    background: linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
+    background: #48cae4;
+    background: #48cae4;
+    border-radius: 10px;
     ${device.small} {
         left: 0;
         max-width: 500px;

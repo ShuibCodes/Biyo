@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "@components/ui/button";
@@ -98,18 +98,21 @@ const Hero = () => {
                                     className="btn-wrp"
                                     sx={{ display: "flex" }}
                                 >
-                                    <Button path="/causes" color="gradient">
-                                        All Causes{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button>
-                                    <Button
-                                        path="/donate"
-                                        variant="outlined"
-                                        sx={{ ml: "10px" }}
-                                    >
-                                        Donate Now{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button>
+                                    <Link to="/causes">
+                                        <Button color="gradient">
+                                            All Causes{" "}
+                                            <i className="flaticon-right-arrow"></i>
+                                        </Button>
+                                    </Link>
+                                    <Link to="/donate">
+                                        <Button
+                                            variant="outlined"
+                                            sx={{ ml: "10px" }}
+                                        >
+                                            Donate Now{" "}
+                                            <i className="flaticon-right-arrow"></i>
+                                        </Button>
+                                    </Link>
                                 </div>
                             </Content>
                         </Col>

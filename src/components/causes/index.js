@@ -4,6 +4,11 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import Button from "@components/ui/button";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import DonateFifty from "../Donations/DonateFifty";
+import DonateFive from "../Donations/DonateFive";
+import DonateHundred from "../Donations/DonateHundred";
+import DonateTen from "../Donations/DonateTen";
+
 import {
     CausesItemWrap,
     Thumb,
@@ -43,33 +48,10 @@ const CausesItem = ({
                 <p style={{ fontSize: "1.7rem" }}>{dec}</p>
             </ContentBox>
             <CausesFooter>
-                {/* <UserAdmin>
-                    <UserAdminTitle>
-                        <Link to={`/causes/${slug}`}>
-                            <UserAdminImg>
-                                <GatsbyImage image={adminImg} alt="Icon" />
-                            </UserAdminImg>
-                            {adminName}
-                        </Link>
-                    </UserAdminTitle>
-                </UserAdmin> */}
-                <Link to="/donate">
-                    <Button
-                        style={{ textDecoration: "none" }}
-                        path={`/donate`}
-                        size="small"
-                        variant="outlined"
-                        color="light"
-                        sx={{ color: "black", fontWeight: "400" }}
-                    >
-                        Donate Now{" "}
-                        <i
-                            style={{ textDecoration: "none" }}
-                            sx={{ ml: "8px", fontSize: "12px !important" }}
-                            className="flaticon-right-arrow"
-                        ></i>
-                    </Button>
-                </Link>
+                <DonateFive />
+                <DonateTen />
+                <DonateFifty />
+                <DonateHundred />
             </CausesFooter>
         </CausesItemWrap>
     );

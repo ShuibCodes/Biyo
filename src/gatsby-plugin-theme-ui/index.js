@@ -24,7 +24,7 @@ const theme = {
         alabaster: "#fafafa",
         mystic: "#e1e8ed",
         facebook: "#3b5998",
-        gradient: "#4A9CF5",
+        gradient: "#48cae4",
     },
     fontSize: {
         body: "16px",

@@ -187,13 +187,13 @@ export const createStyles = (theme, color, size, shape, variant) => css`
     ${size === "small" &&
     css`
         font-size: 15px;
-        min-width: 150px;
+        min-width: 110px;
         padding: 10px 18px;
         font-width: 500;
         font-size: ${theme.fontSize.body} ${device.small} {
             font-size: 13px;
             min-width: 135px;
-            padding: 10px 18px;
+            padding: 10px 10px;
         }
         i {
             font-size: 12px;
@@ -208,22 +208,22 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         height: 51px;
         line-height: 51px;
         font-size: ${theme.fontSize.body} ${device.small} {
-            min-width: 155px;
-            padding: 15px 25px;
+            min-width: 90px;
+            padding: 15px 15px;
             font-size: 14px;
             height: 51px;
             line-height: 20px;
         }
         ${device.medium} {
             min-width: 155px;
-            padding: 15px 25px;
+            padding: 15px 18px;
             font-size: 14px;
             height: 51px;
             line-height: 20px;
         }
         ${device.large} {
-            min-width: 200px;
-            padding: 19px 37px;
+            min-width: 40px;
+            padding: 3px 20px;
             font-size: 17px;
             height: 65px;
             line-height: 26px;
@@ -238,6 +238,7 @@ export const createStyles = (theme, color, size, shape, variant) => css`
     css`
         background: transparent;
         color: ${theme.colors.text};
+
         border: 2px solid #d7d7d7;
         &:hover {
             background: ${theme.colors.gradient};

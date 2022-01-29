@@ -18,6 +18,17 @@ const Logo = ({ className }) => {
                     }}
                 >
                     Biyo
+                    <span
+                        style={{
+                            color: "red",
+                            fontSize: "45px",
+                            fontWeight: "bold",
+                            textDecoration: "none",
+                        }}
+                    >
+                        .
+                    </span>
+                    so
                 </h1>
             </Link>
         </HeaderLogoArea>

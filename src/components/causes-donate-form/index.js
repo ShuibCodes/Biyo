@@ -1,3 +1,4 @@
+/* eslint-disable */
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Col, Row } from "react-bootstrap";
@@ -39,19 +40,17 @@ const CausesDonateForm = () => {
                     alt="Image-Givest"
                 />
             </SectionTitle>
-            <form action="#">
-                <AmountInfo>
-                    {/* £5 Donation */}
 
-                    <DonateFive />
+            <AmountInfo>
+                <DonateFive />
 
-                    <DonateTen />
+                <DonateTen />
 
-                    <DonateFifty />
+                <DonateFifty />
 
-                    <DonateHundred />
-                </AmountInfo>
-            </form>
+                <DonateHundred />
+            </AmountInfo>
+
             <LayerStyle>
                 <StaticImage
                     className="layer-style1"

@@ -39,13 +39,17 @@ const DonateFive = () => {
     // Return
     return (
         <div>
-            <Button style={{ textDecoration: "none" }} color="gradient">
+            <Button
+                style={{ textDecoration: "none" }}
+                color="gradient"
+                size="small"
+            >
                 <button
                     style={{
                         textDecoration: "none",
                         border: "transparent",
-                        fontSize: "18px",
-                        color: "white",
+                        fontSize: "14px",
+                        color: "black",
                     }}
                     onClick={redirectToCheckout}
                     disabled={isLoading}
@@ -53,7 +57,7 @@ const DonateFive = () => {
                     {isLoading ? (
                         <p
                             style={{
-                                fontSize: "15px",
+                                fontSize: "17px",
                             }}
                         >
                             Connecting...
@@ -61,7 +65,7 @@ const DonateFive = () => {
                     ) : (
                         <p
                             style={{
-                                fontSize: "18px",
+                                fontSize: "17px",
                                 color: "white",
                             }}
                         >

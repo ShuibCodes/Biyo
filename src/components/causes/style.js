@@ -83,9 +83,10 @@ export const Title = styled.h5`
 export const CausesFooter = styled.div`
     align-items: center;
     background-color: #f7f7f7;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 15px 33px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 15px 15px 20px;
     ${device.small} {
         padding: 15px 10px 33px;
     }
