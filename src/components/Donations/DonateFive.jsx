@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import Button from "@components/ui/button";
 const stripePromise = loadStripe(
-    "pk_test_51KLQMJKuf4Hvo7riJCJe20dFYD3bvUqoMAF6C0pYLAA3oFbzAopHccdqPc6gC4cOpCaDeON7AHBtWreS7BUeDzk700BB7lgxBG"
+    "pk_live_51KMorMEfur5tTA3RkeWP4fbgy2hInS0Kb8EDSnnY5EijvbRn1AicPlQ0VWo50i574YNKLOP6Da3CvIPF6S8AcExh00Xuc7KKgN"
 );
 
 const DonateFive = () => {
@@ -12,7 +12,8 @@ const DonateFive = () => {
 
     // Product
     const waterTruck = {
-        price: "price_1KLQOgKuf4Hvo7ricQBnJcZL",
+        price: "price_1KO6LmEfur5tTA3RnTjd2Jdo",
+
         quantity: 1,
     };
 
@@ -31,6 +32,7 @@ const DonateFive = () => {
         const result = await stripe.redirectToCheckout(checkoutOptions);
 
         if (result.error) setStripeError(result.error.message);
+        console.log(stripeError);
         setLoading(false);
     };
 
@@ -69,7 +71,7 @@ const DonateFive = () => {
                                 color: "white",
                             }}
                         >
-                            Donate £5
+                            Donate $5
                         </p>
                     )}
                 </button>

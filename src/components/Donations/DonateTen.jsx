@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import Button from "@components/ui/button";
 const stripePromise = loadStripe(
-    "pk_test_51KLQMJKuf4Hvo7riJCJe20dFYD3bvUqoMAF6C0pYLAA3oFbzAopHccdqPc6gC4cOpCaDeON7AHBtWreS7BUeDzk700BB7lgxBG"
+    "pk_live_51KMorMEfur5tTA3RkeWP4fbgy2hInS0Kb8EDSnnY5EijvbRn1AicPlQ0VWo50i574YNKLOP6Da3CvIPF6S8AcExh00Xuc7KKgN"
 );
 
 const DonateTen = () => {
@@ -12,7 +12,7 @@ const DonateTen = () => {
 
     // Product
     const waterTruck = {
-        price: "price_1KLXW6Kuf4Hvo7rizxwvRxac",
+        price: "price_1KO6MzEfur5tTA3R1WBHYsh1",
         quantity: 1,
     };
 
@@ -20,7 +20,7 @@ const DonateTen = () => {
     const checkoutOptions = {
         mode: "payment",
         lineItems: [waterTruck],
-        successUrl: `http://localhost:8000/`, // You can set custom page here
+        successUrl: `http://localhost:8000/Success`, // You can set custom page here
         cancelUrl: `http://localhost:8000/`, // ----------------
     };
 

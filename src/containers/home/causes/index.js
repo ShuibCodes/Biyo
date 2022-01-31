@@ -52,6 +52,7 @@ const CausesArea = () => {
                 <Row>
                     <Col lg={4} md={6} sm={6}>
                         <img src={waterTruck} alt="water" />
+
                         <CausesItem
                             title="Water trucking"
                             dec="At the end of 2021, we provided emergency water trucking to Jubaland"

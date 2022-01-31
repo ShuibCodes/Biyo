@@ -11,17 +11,17 @@ const Logo = ({ className }) => {
                 {/* <img className="logo-main" src={LiteLogo} alt="Logo" /> */}
                 <h1
                     style={{
-                        color: "purple",
+                        color: "#48CAE4",
                         fontSize: "30px",
                         fontWeight: "bold",
                         textDecoration: "none",
                     }}
                 >
-                    Biyo
+                    biyo
                     <span
                         style={{
                             color: "red",
-                            fontSize: "45px",
+                            fontSize: "60px",
                             fontWeight: "bold",
                             textDecoration: "none",
                         }}

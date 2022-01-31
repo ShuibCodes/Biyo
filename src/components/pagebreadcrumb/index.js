@@ -26,12 +26,12 @@ const PageBreadcrumb = ({ crumbLabel, location, title, pageContext }) => {
                 <Row>
                     <Col>
                         <PageTitleContent>
-                            <Breadcrumb
+                            {/* <Breadcrumb
                                 title={title}
                                 crumbs={crumbs}
                                 crumbLabel={labelArr.join(" ")}
                                 disableLinks={disableLinks}
-                            />
+                            /> */}
                         </PageTitleContent>
                     </Col>
                 </Row>

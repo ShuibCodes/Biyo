@@ -1,7 +1,7 @@
 import styled, { themeGet, device } from "@theme/utils";
 
 export const IconBoxitem = styled.div`
-    background: #72b0f3;
+    background: #48cae4;
 
     padding: 45px 25px;
 
@@ -10,7 +10,7 @@ export const IconBoxitem = styled.div`
         background-color: #fc6638;
     }
     &.item-three {
-        background-color: #72b0f3;
+        background: #48cae4;
     }
     ${device.medium} {
         padding: 45px 25px;
@@ -42,6 +42,7 @@ export const IconBox = styled.div`
     top: 7px;
     &:after {
     background-color: rgba(255, 255, 255, 0.15);
+    opacity: 0;
     border-radius: 50%;
     content: "";
     height: 83px;
@@ -49,20 +50,20 @@ export const IconBox = styled.div`
     left: -27px;
     position: absolute;
     top: -15px;
-    
-    ${device.small}{
-       
+
+    ${device.small} {
     }
-    ${device.medium}{
+    ${device.medium} {
         margin-right: 11px;
         min-height: 89px;
         min-width: 87px;
-
     }
     img {
         min-width: auto;
-        width: 40px;
-        ${device.medium}{
+        width: 45px;
+        right: 8px;
+        
+        ${device.medium} {
             min-width: 76px;
         }
     }

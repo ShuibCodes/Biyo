@@ -78,12 +78,13 @@ const Footer = () => {
                         <div className="">
                             <h1
                                 style={{
-                                    fontSize: "27px",
+                                    color: "#48CAE4",
+                                    fontSize: "24px",
                                     fontWeight: "bold",
-                                    color: "purple",
+                                    textDecoration: "none",
                                 }}
                             >
-                                Biyo
+                                biyo
                             </h1>
                         </div>
                         <p>Providing Clean Water, Saving Lives</p>
@@ -91,7 +92,6 @@ const Footer = () => {
                 </div>
                 <div className="footer-copyright text-center py-3">
                     © 2022 Copyright:
-                    <a href=""> Biyo</a>
                 </div>
             </div>
         </footer>
