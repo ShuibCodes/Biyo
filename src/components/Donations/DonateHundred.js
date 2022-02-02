@@ -14,12 +14,11 @@ const DonateHundred = () => {
         quantity: 1,
     };
 
-    // Checkout Options
     const checkoutOptions = {
         mode: "payment",
         lineItems: [waterTruck],
-        successUrl: `http://localhost:8000/Success`, // You can set custom page here
-        cancelUrl: `http://localhost:8000/`, // ----------------
+        successUrl: `https://reverent-beaver-abbd83.netlify.app/Success/`, // You can set custom page here
+        cancelUrl: `https://reverent-beaver-abbd83.netlify.app`, // ----------------
     };
 
     const redirectToCheckout = async () => {

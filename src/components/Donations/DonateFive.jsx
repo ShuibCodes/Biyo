@@ -8,7 +8,7 @@ const stripePromise = loadStripe(
 const DonateFive = () => {
     const [stripeError, setStripeError] = useState(null);
     const [isLoading, setLoading] = useState(false);
-    // £5 donation
+    // $5 donation
 
     // Product
     const waterTruck = {
@@ -21,8 +21,8 @@ const DonateFive = () => {
     const checkoutOptions = {
         mode: "payment",
         lineItems: [waterTruck],
-        successUrl: `http://localhost:8000/Success`, // You can set custom page here
-        cancelUrl: `http://localhost:8000/`, // ----------------
+        successUrl: `https://reverent-beaver-abbd83.netlify.app/Success/`, // You can set custom page here
+        cancelUrl: `https://reverent-beaver-abbd83.netlify.app`, // ----------------
     };
 
     // Redirect To Checkout

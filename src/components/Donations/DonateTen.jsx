@@ -12,7 +12,7 @@ const DonateTen = () => {
 
     // Product
     const waterTruck = {
-        price: "price_1KO6MzEfur5tTA3R1WBHYsh1",
+        price: "price_1KO6MNEfur5tTA3R2ZnlaMKw",
         quantity: 1,
     };
 

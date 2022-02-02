@@ -5,22 +5,20 @@ const stripePromise = loadStripe(
     "pk_live_51KMorMEfur5tTA3RkeWP4fbgy2hInS0Kb8EDSnnY5EijvbRn1AicPlQ0VWo50i574YNKLOP6Da3CvIPF6S8AcExh00Xuc7KKgN"
 );
 
-
 const DonateFifty = () => {
     const [stripeError, setStripeError] = useState(null);
     const [isLoading, setLoading] = useState(false);
     // Product
     const waterTruck = {
-        price: "prod_L4Eq8wZASzxfPA",
+        price: "price_1KO6MzEfur5tTA3R1WBHYsh1",
         quantity: 1,
     };
 
-    // Checkout Options
     const checkoutOptions = {
         mode: "payment",
         lineItems: [waterTruck],
-        successUrl: `http://localhost:8000/Success`, // You can set custom page here
-        cancelUrl: `http://localhost:8000/`, // ----------------
+        successUrl: `https://reverent-beaver-abbd83.netlify.app/Success/`, // You can set custom page here
+        cancelUrl: `https://reverent-beaver-abbd83.netlify.app`, // ----------------
     };
 
     const redirectToCheckout = async () => {
