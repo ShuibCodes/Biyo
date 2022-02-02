@@ -5,6 +5,7 @@ const stripePromise = loadStripe(
     "pk_live_51KMorMEfur5tTA3RkeWP4fbgy2hInS0Kb8EDSnnY5EijvbRn1AicPlQ0VWo50i574YNKLOP6Da3CvIPF6S8AcExh00Xuc7KKgN"
 );
 
+
 const DonateFifty = () => {
     const [stripeError, setStripeError] = useState(null);
     const [isLoading, setLoading] = useState(false);
