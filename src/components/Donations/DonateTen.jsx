@@ -68,7 +68,7 @@ const DonateTen = () => {
                                 color: "white",
                             }}
                         >
-                            Donate £10
+                            Donate $10
                         </p>
                     )}
                 </button>
