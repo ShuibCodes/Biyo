@@ -65,7 +65,7 @@ const SEO = ({
     const nextLink = nextPage && nextPage !== null && rootUrl + nextPage;
     let siteTitle;
     if (pathname === "/") {
-        siteTitle = `${site.siteMetadata.titleTemplate} By ${site.siteMetadata.title}`;
+        siteTitle = `${site.siteMetadata.titleTemplate} - ${site.siteMetadata.title}`;
     } else {
         siteTitle = `${template} - ${metaTitle}`;
     }

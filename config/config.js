@@ -2,7 +2,7 @@
 module.exports = {
     title: "Clean Water For Somalia",
     titleTemplate: "Biyo",
-    description: "Clean Water For Somalia",
+    description: "",
     author: "",
     twitterUsername: "",
     keywords: ["water", "charity", "somalia", "africa"],
@@ -18,7 +18,7 @@ module.exports = {
     },
     siteLanguage: "en",
     favicon: "src/assets/images/favicon.png", // Used for manifest favicon generation
-    shortName: "Biyo", // shortname for manifest. *Must* be shorter than 12 characters
+    shortName: "Biyo.so", // shortname for manifest. *Must* be shorter than 12 characters
     themeColor: "#5E60E7",
     backgroundColor: "#fff",
 };
