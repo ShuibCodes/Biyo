@@ -17,11 +17,12 @@ const DonateTen = () => {
     };
 
     // Checkout Options
+    // Checkout Options
     const checkoutOptions = {
         mode: "payment",
         lineItems: [waterTruck],
-        successUrl: `https://reverent-beaver-abbd83.netlify.app/Success/`, // You can set custom page here
-        cancelUrl: `https://reverent-beaver-abbd83.netlify.app`, // ----------------
+        successUrl: `https://biyo.so/Success/`, // You can set custom page here
+        cancelUrl: `https://biyo.so/`, // ----------------
     };
 
     const redirectToCheckout = async () => {
