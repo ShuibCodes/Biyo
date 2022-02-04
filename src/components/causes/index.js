@@ -48,10 +48,18 @@ const CausesItem = ({
                 <p style={{ fontSize: "1.7rem" }}>{dec}</p>
             </ContentBox>
             <CausesFooter>
-                <DonateFive />
+                <Button
+                    style={{ textDecoration: "none" }}
+                    color="gradient"
+                    size="small"
+                >
+                    <a href="https://t.co/lkjJrw7aiZ">Donate Now</a>
+                </Button>
+
+                {/* <DonateFive />
                 <DonateTen />
                 <DonateFifty />
-                <DonateHundred />
+                <DonateHundred /> */}
             </CausesFooter>
         </CausesItemWrap>
     );

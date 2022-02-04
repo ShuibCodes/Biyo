@@ -193,7 +193,7 @@ const AboutArea = () => {
                                 </strong>
                             </p>
                             <p className="mb-0">
-                                Biyo ensures villages are well informed and
+                                biyo ensures villages are well informed and
                                 educated on santiation basics so that they will
                                 soon be self-sufficent with the equipemt we
                                 provide

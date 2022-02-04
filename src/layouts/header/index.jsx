@@ -98,17 +98,17 @@ const Header = () => {
                                         <span></span>
                                     </MobileMenuBtn>
                                     <ButtonBoxArea>
-                                        <Link to="/contact-us">
-                                            <Button
-                                                sx={{ ml: "15px" }}
-                                                type="button"
-                                                path="/contact-us"
-                                                color="gradient"
-                                            >
-                                                Give Support{" "}
-                                                <i className="flaticon-right-arrow"></i>
-                                            </Button>
-                                        </Link>
+                                        <Button
+                                            sx={{ ml: "15px" }}
+                                            type="button"
+                                            path="/contact-us"
+                                            color="gradient"
+                                        >
+                                            <a href="https://t.co/lkjJrw7aiZ">
+                                                Give Support
+                                            </a>
+                                            <i className="flaticon-right-arrow"></i>
+                                        </Button>
                                     </ButtonBoxArea>
                                 </HeaderActionArea>
                             </HeaderMenuArea>

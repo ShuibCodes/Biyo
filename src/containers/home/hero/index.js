@@ -109,7 +109,15 @@ const Hero = () => {
                                             variant="outlined"
                                             sx={{ ml: "10px" }}
                                         >
-                                            Donate Now{" "}
+                                            <a
+                                                style={{
+                                                    textDecoration: "none",
+                                                }}
+                                                href="https://t.co/lkjJrw7aiZ"
+                                            >
+                                                Donate Now
+                                            </a>
+
                                             <i className="flaticon-right-arrow"></i>
                                         </Button>
                                     </Link>
