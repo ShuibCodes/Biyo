@@ -104,7 +104,10 @@ const Header = () => {
                                             path="/contact-us"
                                             color="gradient"
                                         >
-                                            <a href="https://t.co/lkjJrw7aiZ">
+                                            <a
+                                                style={{ color: "white" }}
+                                                href="https://t.co/lkjJrw7aiZ"
+                                            >
                                                 Give Support
                                             </a>
                                             <i className="flaticon-right-arrow"></i>
