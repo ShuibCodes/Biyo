@@ -39,7 +39,7 @@ const ContactUsArea = () => {
                                                 alt="Image-Givest"
                                             />
                                             <a href="tel:(310) 867-4168">
-                                                (310) 867-4168
+                                                (00) 000-000
                                             </a>
                                         </ContactInfoContent>
                                     </ContactInfoItem>
@@ -58,8 +58,8 @@ const ContactUsArea = () => {
                                                 src="../../../data/images/shape/line-s1.png"
                                                 alt="Image-Givest"
                                             />
-                                            <a href="mailto:nadeefsviews@gmail.com">
-                                                nadeefsviews@gmail.com
+                                            <a href="mailto:biyodotso@gmail.com">
+                                                biyodotso@gmail.com
                                             </a>
                                         </ContactInfoContent>
                                     </ContactInfoItem>
