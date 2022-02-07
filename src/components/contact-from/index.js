@@ -22,9 +22,8 @@ const ContactForm = () => {
                         <Subtitle>Contact Now</Subtitle>
                         <Title>Get In Touch.</Title>
                         <SectionDec>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting typesetting remaining essentially
-                            unchanged.
+                            If you have a question or an enquiry, please fill
+                            out this from and we will get back to you
                         </SectionDec>
                     </SectionTitle>
                 </Col>
