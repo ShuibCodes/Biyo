@@ -55,16 +55,14 @@ const CausesArea = () => {
 
                         <CausesItem
                             title="Water trucking"
-                            dec="At the end of 2021, we provided emergency water trucking to Jubaland"
+                            dec="We are currently running an emergency water trucking campaign in Jubaland on GoFundMe. This will provide water to nomads and pastoralists who are effected by the drought. Any and all donations are appreciated. Please make sure to share the link with all friends and family"
                         />
                     </Col>
                     <Col lg={4} md={6} sm={6}>
                         <img src={waterReservoir} alt="water-reservoir" />
                         <CausesItem
                             title="Water reservoir"
-                            dec="We are working with locals in Jubaland to identify 
-areas that seasonal rivers go through that a natural 
-reservoir can be built. This will hold water for 6 months. 
+                            dec="We are working with locals in Jubaland to identify areas that seasonal rivers go through that a natural reservoir can be built. This will hold water for 6 months. This project is coming in the summer of 2022, so stay tuned. 
 "
                         />
                     </Col>
@@ -72,9 +70,7 @@ reservoir can be built. This will hold water for 6 months.
                         <img src={waterWell} alt="water" />
                         <CausesItem
                             title="Building Wells"
-                            dec="We have identified an extremely water stressed community in Jubaland 
-that needs a well. This project will start in 2022. 
-"
+                            dec="We have identified a community in Jubaland that lacks access to fresh water. We plan to dig a borehole for this community. This project will start in the summer of 2022"
                         />
                     </Col>
                 </Row>

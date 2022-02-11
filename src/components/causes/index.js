@@ -45,7 +45,7 @@ const CausesItem = ({
                 <Title>
                     <h6>{title}</h6>
                 </Title>
-                <p style={{ fontSize: "1.7rem" }}>{dec}</p>
+                <p style={{ fontSize: "1.4rem" }}>{dec}</p>
             </ContentBox>
             <CausesFooter>
                 <Button

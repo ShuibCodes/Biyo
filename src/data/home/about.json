@@ -2,7 +2,7 @@
     {
         "section_title": {
             "subTitle": "About Us.",
-            "title": "<span>biyo.so</span> is Committed to providing Safe Water For The Horn Of Africa"
+            "title": "We are committed to providing clean & safe water for the Horn Of Africa"
         },
         "image1": "../images/about/sanitation-child.jpg",
         "image2": "../images/about/sanitation-image.jpg",
@@ -23,8 +23,8 @@
         "image4": "../images/about/boys-by-pump.jpg",
         "content1": "",
         "content2": "We identify the most water stressed area in a community and build wells that can provide water for thousands of housholds.",
-        "content3": "Our Wells provide much needed water for the local community to use and drink. We cover numerous areas and make sure fresh water is available for the most depleated villages and towns",
-        "listText1": "Clean Water <br /> for washing and sanitation .",
+        "content3": "Our wells provide much needed water for the local community to use and drink. We will across the Horn of African to ensure that these wells are built equitably for those communities that need it most",
+        "listText1": "Clean Water <br /> for washing and hygiene .",
         "listText2": "Fresh Water <br />for drinking and cooking."
     }
 ]

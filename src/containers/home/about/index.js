@@ -186,14 +186,14 @@ const AboutArea = () => {
                             <p>
                                 <strong>
                                     Sanitation facilities and clean living
-                                    enviroments crucial to maintain a healthy
-                                    community. This is why we work to build
-                                    these facilities where they lack the
-                                    equipment and resources.
+                                    environments are crucial to maintaining a
+                                    clean water ecosystem in a community. That's
+                                    why we work to build these facilities where
+                                    they lack the equipment and resources
                                 </strong>
                             </p>
                             <p className="mb-0">
-                                biyo ensures villages are well informed and
+                                We ensure villages are well informed and
                                 educated on santiation basics so that they will
                                 soon be self-sufficent with the equipemt we
                                 provide
@@ -215,7 +215,7 @@ const AboutArea = () => {
 
                                     <ListText
                                         dangerouslySetInnerHTML={{
-                                            __html: "Filtered water for small and large villages & towns",
+                                            __html: "Proper sanitation facilities for communities",
                                         }}
                                     />
                                 </ListLi>
@@ -233,7 +233,7 @@ const AboutArea = () => {
                                         />
                                         <ListText
                                             dangerouslySetInnerHTML={{
-                                                __html: "economic and enviromentally friendly processes",
+                                                __html: "Work with local leaders to address community needs",
                                             }}
                                         />
                                     </div>
@@ -341,18 +341,18 @@ const AboutArea = () => {
                             <AboutTextStyle>{content1}</AboutTextStyle>
                             <p>
                                 <strong>
-                                    Communities living far away from wells need
-                                    help with piping the water to the community
-                                    and a storage system.
+                                    Communities living far away from well and
+                                    rivers need sustainable rainwater harvesting
+                                    systems that gives them access to clean
+                                    water year round
                                 </strong>
                             </p>
                             <p className="mb-0">
                                 Rainwater has always been used as a clean source
-                                for drinking and cleaning in agriculture, and
-                                now we see the benefits of investing in complete
-                                rainwater harvesting as a cost effective
-                                solution that also helps to reduce our
-                                environmental impact.
+                                of water for drinking and agriculture but
+                                communities have struggled with implementing
+                                large scale, modern systems to harvest and store
+                                it
                             </p>
                             <LlistIconStyle>
                                 <ListLi>
@@ -363,7 +363,7 @@ const AboutArea = () => {
                                     />
                                     <ListText
                                         dangerouslySetInnerHTML={{
-                                            __html: "Rainwater for livestock and crops",
+                                            __html: "Rainwater harvesting systems",
                                         }}
                                     />
                                 </ListLi>
@@ -384,7 +384,7 @@ const AboutArea = () => {
 
                                     <ListText
                                         dangerouslySetInnerHTML={{
-                                            __html: "Modern solutions & environmentally freindly ",
+                                            __html: "Rainwater storage systems ",
                                         }}
                                     />
                                 </ListLi>

@@ -20,10 +20,10 @@ const ContactForm = () => {
                 <Col lg={12}>
                     <SectionTitle>
                         <Subtitle>Contact Now</Subtitle>
-                        <Title>Get In Touch.</Title>
+                        <Title>Reach out to us here</Title>
                         <SectionDec>
-                            If you have a question or an enquiry, please fill
-                            out this from and we will get back to you
+                            Have comments, questions, or concerns? Want to help
+                            us with a project? Volunteer?
                         </SectionDec>
                     </SectionTitle>
                 </Col>

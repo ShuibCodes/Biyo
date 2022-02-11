@@ -4,6 +4,11 @@
         "link": "/",
         "isSubmenu": false
     },
+    {
+        "text": "Causes",
+        "link": "/causes",
+        "isSubmenu": false
+    },
   
    
     

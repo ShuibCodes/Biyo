@@ -79,19 +79,42 @@ const Footer = () => {
                             <h1
                                 style={{
                                     color: "#48CAE4",
-                                    fontSize: "24px",
+                                    fontSize: "25px",
                                     fontWeight: "bold",
                                     textDecoration: "none",
                                 }}
                             >
                                 biyo
+                                <span
+                                    style={{
+                                        color: "red",
+                                        fontSize: "55px",
+                                        fontWeight: "bold",
+                                        textDecoration: "none",
+                                    }}
+                                >
+                                    .
+                                </span>
+                                so
                             </h1>
                         </div>
-                        <p>Providing Clean Water, Saving Lives</p>
+
+                        <p>Saving lives by providing clean water</p>
                     </div>
                 </div>
                 <div className="footer-copyright text-center py-3">
-                    © 2022 Copyright:
+                    © 2022 Copyright
+                </div>
+                <div className="footer-copyright text-center py-3">
+                    <p>
+                        Designed & Developed by{" "}
+                        <a
+                            href="https://shuayb-codes.webflow.io/"
+                            style={{ textDecoration: "none" }}
+                        >
+                            ShuaybCodes
+                        </a>{" "}
+                    </p>
                 </div>
             </div>
         </footer>

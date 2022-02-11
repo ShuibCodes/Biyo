@@ -8,6 +8,7 @@ export const Thumb = styled.div`
     display: flex;
     img {
         width: 100%;
+        height: 70%;
         transition: 0.8s;
         -webkit-transition: 0.8s;
         -moz-transition: 0.8s;

@@ -90,7 +90,7 @@ const Hero = () => {
                                 <HeroTitleWrap>
                                     <h1
                                         dangerouslySetInnerHTML={{
-                                            __html: "Providing Clean Water, Saving Lives ",
+                                            __html: "Saving lives, by providing clean water ",
                                         }}
                                     />
                                 </HeroTitleWrap>

@@ -38,9 +38,7 @@ const ContactUsArea = () => {
                                                 src="../../../data/images/shape/line-s1.png"
                                                 alt="Image-Givest"
                                             />
-                                            <a href="tel:(310) 867-4168">
-                                                (00) 000-000
-                                            </a>
+                                            <a href="">Coming Soon</a>
                                         </ContactInfoContent>
                                     </ContactInfoItem>
                                     <ContactInfoItem>
