@@ -200,30 +200,23 @@ const AboutArea = () => {
                             </p>
                             <LlistIconStyle>
                                 <ListLi>
-                                    <div
-                                        style={{
-                                            marginRight: "10px",
-                                            marginTop: "5px",
-                                        }}
-                                    >
-                                        <StaticImage
-                                            className=""
-                                            src="../../../data/images/icons/check-double-line.png"
-                                            alt="Image-Givest"
-                                        />
-                                    </div>
-
+                                    <StaticImage
+                                        className="icon-img"
+                                        src="../../../data/images/icons/check-double-line.png"
+                                        alt="Image-Givest"
+                                    />
                                     <ListText
                                         dangerouslySetInnerHTML={{
                                             __html: "Proper sanitation facilities for communities",
                                         }}
                                     />
                                 </ListLi>
-
+                                <ListLi className="line-center"></ListLi>
                                 <ListLi>
                                     <div
                                         style={{
-                                            marginTop: "5px",
+                                            position: "relative",
+                                            right: "-15px",
                                         }}
                                     >
                                         <StaticImage
@@ -231,12 +224,13 @@ const AboutArea = () => {
                                             src="../../../data/images/icons/check-double-line.png"
                                             alt="Image-Givest"
                                         />
-                                        <ListText
-                                            dangerouslySetInnerHTML={{
-                                                __html: "Work with local leaders to address community needs",
-                                            }}
-                                        />
                                     </div>
+
+                                    <ListText
+                                        dangerouslySetInnerHTML={{
+                                            __html: "Work with local leaders to address community needs",
+                                        }}
+                                    />
                                 </ListLi>
                             </LlistIconStyle>
                             <Link to="causes">

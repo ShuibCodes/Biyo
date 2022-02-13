@@ -39,7 +39,6 @@ const ServiceArea = () => {
                             return (
                                 <Col lg={4} md={6} sm={6} key={data.node.id}>
                                     <ServiceItem
-                                        style={{ minHeight: "500px" }}
                                         title={data.node.title}
                                         parText={data.node.parText}
                                         itemClassName={data.node.itemClassName}
