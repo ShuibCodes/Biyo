@@ -25,7 +25,7 @@ const DonateFive = () => {
         cancelUrl: `https://biyo.so/`, // ----------------
     };
 
-    // Redirect To Checkout
+    // Redirect To Checkout & Loading state
     const redirectToCheckout = async () => {
         setLoading(true);
         const stripe = await stripePromise;
@@ -38,7 +38,6 @@ const DonateFive = () => {
 
     if (stripeError) alert(stripeError);
 
-    // Return
     return (
         <div>
             <Button

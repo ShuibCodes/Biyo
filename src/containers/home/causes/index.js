@@ -7,8 +7,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { graphql, useStaticQuery, Link } from "gatsby";
 import Button from "@components/ui/button";
 import waterTruck from "../../../assets/images/new-water-truck.jpeg";
-import waterReservoir from "../../../assets/images/water-reservoir.jpeg";
-import waterWell from "../../../assets/images/water-well.png";
+import waterReservoir from "../../../assets/images/modern-reservoirs.jpeg";
+import waterWell from "../../../assets/images/well-installation.jpeg";
+
 const CausesArea = () => {
     const causesAreaQuery = useStaticQuery(graphql`
         query CausesAreaQuery {
@@ -62,8 +63,7 @@ const CausesArea = () => {
                         <img src={waterReservoir} alt="water-reservoir" />
                         <CausesItem
                             title="Water reservoir"
-                            dec="We are working with locals in Jubaland to identify areas that seasonal rivers go through that a natural reservoir can be built. This will hold water for 6 months. This project is coming in the summer of 2022, so stay tuned. 
-"
+                            dec="We are working with locals in Jubaland to identify areas that seasonal rivers go through that a natural reservoir can be built. This will hold water for 6 months. This project is coming in the summer of 2022, so stay tuned!"
                         />
                     </Col>
                     <Col lg={4} md={6} sm={6}>

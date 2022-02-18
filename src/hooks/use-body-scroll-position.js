@@ -5,6 +5,8 @@ export default () => {
     useEffect(() => {
         const handleScroll = () => setScrollPosition(window.scrollY);
         document.addEventListener("scroll", handleScroll);
+
+        // clean it all up
         return () => document.removeEventListener("scroll", handleScroll);
     }, []);
     return scrollPosition;

@@ -5,8 +5,8 @@ import { SectionArea } from "./style";
 import { Container, Row, Col } from "react-bootstrap";
 import { graphql, useStaticQuery } from "gatsby";
 import waterTruck from "../../../assets/images/new-water-truck.jpeg";
-import waterReservoir from "../../../assets/images/water-reservoir.jpeg";
-import waterWell from "../../../assets/images/water-well.png";
+import waterReservoir from "../../../assets/images/modern-reservoirs.jpeg";
+import waterWell from "../../../assets/images/well-installation.jpeg";
 
 const CausesAll = () => {
     const causesAreaQuery = useStaticQuery(graphql`
@@ -17,17 +17,13 @@ const CausesAll = () => {
                         id
                         title
                         dec
-
-                        image {
-                            childImageSharp {
-                                gatsbyImageData(width: 580)
-                            }
-                        }
                     }
                 }
             }
         }
     `);
+
+    // THIS ONE!
 
     return (
         <SectionArea>
