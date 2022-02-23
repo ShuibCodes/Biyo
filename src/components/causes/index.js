@@ -61,7 +61,7 @@ const CausesItem = ({
                     </a>
                 </Button> */}
 
-                <DonateFive />
+                {/* <DonateFive /> */}
             </CausesFooter>
         </CausesItemWrap>
     );
