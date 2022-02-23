@@ -48,7 +48,7 @@ const CausesItem = ({
                 <p style={{ fontSize: "1.4rem" }}>{dec}</p>
             </ContentBox>
             <CausesFooter>
-                {/* <Button
+                <Button
                     style={{ textDecoration: "none" }}
                     color="gradient"
                     size="small"
@@ -59,7 +59,7 @@ const CausesItem = ({
                     >
                         Donate Now
                     </a>
-                </Button> */}
+                </Button>
 
                 {/* <DonateFive /> */}
             </CausesFooter>
