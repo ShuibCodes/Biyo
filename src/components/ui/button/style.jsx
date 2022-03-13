@@ -1,7 +1,7 @@
 import styled, { themeGet, device, css } from "@theme/utils";
 import { Link } from "gatsby";
 
-export const createStyles = (theme, color, size, shape, variant) => css`
+export const createStyles = (theme, color, size, shape, variant, width) => css`
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
@@ -198,6 +198,12 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         i {
             font-size: 12px;
         }
+    `}
+    ${width === "long" &&
+    css`
+        min-width: 300px !important;
+        width: 300px;
+        height: 50px !important;
     `}
     ${size === "medium" &&
     css`

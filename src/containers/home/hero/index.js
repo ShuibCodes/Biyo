@@ -125,11 +125,11 @@ const Hero = () => {
                                     href="https://biyo.us14.list-manage.com/subscribe?u=9467eadb19542b67f15856069&id=82605e55e4"
                                     style={{
                                         position: "relative",
-                                        left: "6rem",
+                                        left: "0rem",
                                         top: "0.7rem",
                                     }}
                                 >
-                                    <Button color="gradient">
+                                    <Button color="gradient" width="long">
                                         Join The Cause
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>

@@ -10,6 +10,7 @@ const Button = ({
     size,
     shape,
     variant,
+    width,
     sx,
     className,
     path,
@@ -17,7 +18,7 @@ const Button = ({
     ...props
 }) => {
     const buttonProps = {
-        css: (theme) => createStyles(theme, color, size, shape, variant),
+        css: (theme) => createStyles(theme, color, size, shape, variant, width),
     };
     if (path) {
         const internal = /^\/(?!\/)/.test(path);
@@ -94,6 +95,7 @@ Button.propTypes = {
     ]),
     size: PropTypes.oneOf(["xsmall", "small", "medium", "large", "fullwidth"]),
     shape: PropTypes.oneOf(["rounded"]),
+    width: PropTypes.oneOf(["long"]),
     variant: PropTypes.oneOf(["outlined", "iconButton"]),
     path: PropTypes.string,
     label: PropTypes.string,
