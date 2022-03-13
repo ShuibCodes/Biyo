@@ -121,6 +121,19 @@ const Hero = () => {
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>
                                 </div>
+                                <a
+                                    href="https://biyo.us14.list-manage.com/subscribe?u=9467eadb19542b67f15856069&id=82605e55e4"
+                                    style={{
+                                        position: "relative",
+                                        left: "6rem",
+                                        top: "0.7rem",
+                                    }}
+                                >
+                                    <Button color="gradient">
+                                        Join The Cause
+                                        <i className="flaticon-right-arrow"></i>
+                                    </Button>
+                                </a>
                             </Content>
                         </Col>
                         <Col

@@ -56,8 +56,8 @@ const ContactUsArea = () => {
                                                 src="../../../data/images/shape/line-s1.png"
                                                 alt="Image-Givest"
                                             />
-                                            <a href="mailto:biyodotso@gmail.com">
-                                                biyodotso@gmail.com
+                                            <a href="mailto:biyoHQ@gmail.com">
+                                                biyoHQ@gmail.com
                                             </a>
                                         </ContactInfoContent>
                                     </ContactInfoItem>
